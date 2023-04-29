@@ -21,7 +21,7 @@ export async function getStaticPaths() {
     fallback: false,
   }
 }
-
+// getStaticProps and getStaticPaths run only on the server-side and will never run on the client-side
 export default function Post({ postData }) {
   return (
     <Layout>
